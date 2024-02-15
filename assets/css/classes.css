@@ -10,12 +10,21 @@
   background: var(--white-color);
   color: var(--primary-color);
 }
-.gray-bg {
-  background: #ebebeb; 
-  color: var(--primary-color);
+.book-bg {
+  background-image: url('../img/background3.jpg'); 
+  color: var(--white-color);
+  border-top: 4px solid #bc9c6c; 
+  border-bottom: 4px solid #bc9c6c; 
+  padding: 20px; /* Espaçamento interno para separar o conteúdo da borda */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-size: cover
 }
-
-
+.gold-bg {
+  background: #bc9c6c ;
+  color: var(--primary-color);
+  height: auto;
+  width: 100%;
+}
 .main-content {
   max-width: 120rem;
   margin: 0 auto;
@@ -36,12 +45,11 @@ body .full-width {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arial', sans-serif;
   background-color: #afafaf;
   margin: 0;
   padding: 0;
 }
-
 
 
 @media (max-width: 800px) {
