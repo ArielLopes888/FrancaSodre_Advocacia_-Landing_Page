@@ -1,0 +1,55 @@
+@import '../css/reset.css';
+.main-bg {
+  background-image: url('../img/main.jpg'); 
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+
+.white-bg {
+  background: var(--white-color);
+  color: var(--primary-color);
+}
+.gray-bg {
+  background: #ebebeb; 
+  color: var(--primary-color);
+}
+
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 10rem var(--gap);
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.menu-spacing {
+  height: 65px;
+}
+
+body .full-width {
+  width: 100%;
+  flex: 1 1 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #afafaf;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@media (max-width: 800px) {
+  .main-bg {
+    background-size: contain; 
+  }
+  .main-content {
+    max-width: 100%; 
+    padding: 5rem var(--gap); 
+  }
+}
