@@ -10,6 +10,14 @@ body {
   color: var(--primary-color);
   line-height: 1.5;
 }
+.open-sans-intro {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 00;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 h1,
 h2,
@@ -48,7 +56,8 @@ a {
 }
 
 p {
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
+  font-size: 1.7rem;
 }
 
 .whatsapp-article {

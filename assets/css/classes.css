@@ -15,8 +15,8 @@
   color: var(--white-color);
   border-top: 4px solid #bc9c6c; 
   border-bottom: 4px solid #bc9c6c; 
-  padding: 20px; /* Espaçamento interno para separar o conteúdo da borda */
-  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  padding: 20px; 
+  background-repeat: no-repeat;
   background-size: cover
 }
 .gold-bg {
@@ -42,13 +42,6 @@
 body .full-width {
   width: 100%;
   flex: 1 1 100%;
-}
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #afafaf;
-  margin: 0;
-  padding: 0;
 }
 
 
