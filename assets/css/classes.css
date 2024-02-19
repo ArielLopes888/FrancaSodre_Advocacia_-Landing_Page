@@ -1,11 +1,4 @@
 @import '../css/reset.css';
-.main-bg {
-  background-image: url('../img/main.jpg'); 
-  background-size: cover;
-  background-position: center center;
-  color: var(--white-color);
-}
-
 .white-bg {
   background: var(--white-color);
   color: var(--primary-color);
@@ -13,22 +6,25 @@
 .book-bg {
   background-image: url('../img/background3.jpg'); 
   color: var(--white-color);
-  border-top: 4px solid #bc9c6c; 
-  border-bottom: 4px solid #bc9c6c; 
+  border-top: 4px solid var(--gold-color) ; 
+  border-bottom: 4px solid var(--gold-color) ; 
   padding: 20px; 
   background-repeat: no-repeat;
   background-size: cover
 }
 .gold-bg {
-  background: #bc9c6c ;
+  background:var(--gold-color) ;
   color: var(--primary-color);
-  height: auto;
   width: 100%;
+  height: auto;
+  padding: 20px; 
 }
 .main-content {
   max-width: 120rem;
   margin: 0 auto;
   padding: 10rem var(--gap);
+  text-align: center;
+  color: var(--white-color);
 }
 
 .section {
@@ -52,5 +48,8 @@ body .full-width {
   .main-content {
     max-width: 100%; 
     padding: 5rem var(--gap); 
+    text-align: center;
+    justify-items: center; 
+    align-items: center; 
   }
 }

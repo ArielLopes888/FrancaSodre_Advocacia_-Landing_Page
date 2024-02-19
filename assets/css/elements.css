@@ -1,4 +1,5 @@
 @import '../css/reset.css';
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -10,6 +11,7 @@ body {
   color: var(--primary-color);
   line-height: 1.5;
 }
+
 .open-sans-intro {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -44,6 +46,7 @@ h2 {
   text-transform: uppercase;
   line-height: 1.2;
 }
+
 h4 {
   font-size: 2.5rem;
   margin-bottom: 5rem;
@@ -85,6 +88,47 @@ p {
   margin-left: 20px;
 }
 
+.personalized-card {
+  width: 100%;
+  max-width: 32rem;
+  max-height: 52rem;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.671);
+  background-color: #251c1f85;
+  padding: 1rem;
+  color: var(--white-color);
+  text-align: center;
+  border: 6px solid #ffffffde;
+  border-radius: 10px;
+}
+
+.personalized-card2 {
+  width: 100%;
+  max-width: 32rem;
+  max-height: 72rem;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(247, 247, 247, 0.555);
+  background-color: #251c1fd2;
+  padding: 1rem;
+  color: var(--white-color);
+  text-align: center;
+  border: 6px solid var(--gold-color);
+  border-radius: 10px;
+}
+
+.personalized-card2 .hidden-paragraph {
+  display: none;
+}
+
+.personalized-card2:hover .hidden-paragraph {
+  display: block;
+}
+.personalized-card2:hover .p-detail {
+  display: none;
+}
+
 .p-contact {
   font-size: 2em;
   font-weight: 700;
@@ -107,20 +151,26 @@ p {
 
 }
 
-.p-contact a{
-  text-decoration: none;
-  color: inherit;
+.footer {
+  text-align: center;
 }
 
-.p-email a{
-  text-decoration: none;
-  color: inherit;
+.footer a {
+  color: var(--primary-color);
+  font-size: 1.4rem;
 }
+.footer p {
+  margin: 0;
+  padding: 5rem;
+}
+.heart {
+  color: var(--secondary-color);
+}
+
 iframe {
   width: 100%;
   height: 500px;
 }
-
 
 @media (max-width: 800px) {
 
@@ -147,5 +197,12 @@ iframe {
 
   h6 {
     font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 300px) {
+
+  h2 {
+    font-size: 2.8rem;
   }
 }
