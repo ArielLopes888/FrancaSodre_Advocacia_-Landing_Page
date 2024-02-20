@@ -4,7 +4,7 @@
   color: var(--primary-color);
 }
 .book-bg {
-  background-image: url('../img/background3.jpg'); 
+  background-image: url('../img/background.jpg'); 
   color: var(--white-color);
   border-top: 4px solid var(--gold-color) ; 
   border-bottom: 4px solid var(--gold-color) ; 
