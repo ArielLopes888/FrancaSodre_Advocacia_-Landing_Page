@@ -1,6 +1,7 @@
 @import '../css/reset.css';
 :root {
   --primary-color: #0A1128;
+  --gray-color: #dbd9d9;
   --white-color: #FFFFFF;
   --light-gray-color: #EEEEEE;
   --secondary-color: crimson;

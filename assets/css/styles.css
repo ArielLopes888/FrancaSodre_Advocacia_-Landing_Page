@@ -13,7 +13,7 @@
   display: flex;
   flex-flow: column wrap;
   text-align: center;
-
+  justify-content: center;
 }
 
 .intro-img {
@@ -35,6 +35,15 @@
   margin: 0 auto;
   max-width: 100%;
   box-shadow: 0px 0px 10px rgba(247, 247, 247, 0.877);
+}
+
+.bordered-image-researche {
+  border: 2px solid var(--gold-color);
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  box-shadow: 0px 0px 8px rgba(247, 247, 247, 0.877);
 }
 
 .bordered-section {
@@ -143,7 +152,7 @@
 
 @media (max-width: 360px) {
   .logo-img {
-    width: 250px;
+    width: 230px;
     height: auto;
     margin-bottom: 0px;
     justify-items: center;
