@@ -7,8 +7,6 @@
 
   background-image: url('../img/bg.jpg'); 
   color: var(--white-color);
-  border-top: 4px solid var(--gold-color) ; 
-  border-bottom: 4px solid var(--gold-color) ; 
   padding: 20px; 
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +18,7 @@
   width: 100%;
   height: auto;
   padding: 20px; 
-  box-shadow: 0px 0px 10px rgb(247, 247, 247, 0.658);
+  box-shadow: 0px 0px 10px rgb(247, 247, 247);
 }
 .main-content {
   max-width: 120rem;
