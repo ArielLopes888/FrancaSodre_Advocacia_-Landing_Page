@@ -20,10 +20,6 @@
   text-align: left;
   justify-content: center;
 }
-.intro-text-content h4 {
-  border-bottom: 1px solid #000; 
-  padding-bottom: 10px; 
-}
 
 .intro-img {
   display: flex;
@@ -38,8 +34,6 @@
 }
 
 .bordered-image {
-  border: 6px solid var(--gold-color);
-  border-radius: 10px;
   display: block;
   margin: 0 auto;
   max-width: 100%;
