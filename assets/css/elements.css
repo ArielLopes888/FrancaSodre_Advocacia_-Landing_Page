@@ -12,24 +12,14 @@ body {
   line-height: 1.5;
 }
 
-.open-sans-intro {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 00;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  color: var(--white-color);
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
-  
+  font-family: 'Ivy Mode', sans-serif;
+
 }
 
 h1 {
@@ -42,8 +32,8 @@ h2 {
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1.2;
-  border-bottom: 1px solid #000; 
-  padding-bottom: 10px; 
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
 }
 
 h4 {
@@ -177,7 +167,7 @@ iframe {
 
 
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   h2 {

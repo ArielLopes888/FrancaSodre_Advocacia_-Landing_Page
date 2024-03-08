@@ -10,7 +10,6 @@
   display: none;
   border-bottom: 0.1rem solid var(--light-gray-color);
 }
-
 .menu-content {
   display: flex;
   justify-content: space-between;
@@ -38,7 +37,7 @@
   display: block;
   padding: 2rem;
   font-size: 1.8rem;
-  color: var(--primary-color);
+  color: var(--white-color);
   position: relative;
 }
 
@@ -70,7 +69,7 @@
   z-index: 2;
   top: 1rem;
   right: 1rem;
-  background: #bc9c6caf;
+  background: var(--primary-color);
   color: var(--white-color);
   font-size: 1.5rem;
   line-height: 3rem;

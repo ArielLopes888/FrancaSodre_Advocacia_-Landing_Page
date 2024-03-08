@@ -3,9 +3,13 @@
   background: var(--white-color);
   color: var(--primary-color);
 }
+.blue-bg {
+  background: var(--blue-color);
+  color: var(--white-color);
+}
 .book-bg {
 
-  background-image: url('../img/bg.jpg'); 
+  background-image: url('../img/bg1.jpg'); 
   color: var(--white-color);
   padding: 20px; 
   background-repeat: no-repeat;
@@ -24,7 +28,14 @@
   padding: 10rem var(--gap);
   text-align: center;
   color: var(--white-color);
+}.contact-title-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 10rem var(--gap);
+  text-align: center;
+  color: var(--primary-color);
 }
+
 
 .section {
   min-height: 100vh;
