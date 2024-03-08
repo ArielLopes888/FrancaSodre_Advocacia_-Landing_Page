@@ -152,10 +152,11 @@ p {
 
 .footer {
   text-align: center;
+  background: var(--blue-color);
 }
 
 .footer a {
-  color: var(--primary-color);
+  color: var(--white-color);
   font-size: 1.4rem;
 }
 
