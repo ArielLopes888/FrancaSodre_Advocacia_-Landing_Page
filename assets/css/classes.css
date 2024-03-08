@@ -1,39 +1,46 @@
 @import '../css/reset.css';
+
 .white-bg {
   background: var(--white-color);
   color: var(--primary-color);
 }
+
 .blue-bg {
   background: var(--blue-color);
   color: var(--white-color);
 }
+
 .book-bg {
 
-  background-image: url('../img/bg1.jpg'); 
+  background-image: url('../img/bg1.jpg');
   color: var(--white-color);
-  padding: 20px; 
+  padding: 20px;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .gold-bg {
-  background:var(--gold-color) ;
+  background: var(--gold-color);
   color: var(--primary-color);
   width: 100%;
   height: auto;
-  padding: 20px; 
+  padding: 20px;
 }
+
 .main-content {
   max-width: 120rem;
   margin: 0 auto;
   padding: 10rem var(--gap);
   text-align: center;
   color: var(--white-color);
-}.contact-title-content {
+}
+
+.contact-title-content {
   max-width: 120rem;
   margin: 0 auto;
   padding: 10rem var(--gap);
   text-align: center;
-  color: var(--primary-color);
+  color: var(--white-color);
 }
 
 
@@ -50,16 +57,16 @@ body .full-width {
   flex: 1 1 100%;
 }
 
-
 @media (max-width: 800px) {
   .main-bg {
-    background-size: contain; 
+    background-size: contain;
   }
+
   .main-content {
-    max-width: 100%; 
-    padding: 5rem var(--gap); 
+    max-width: 100%;
+    padding: 5rem var(--gap);
     text-align: center;
-    justify-items: center; 
-    align-items: center; 
+    justify-items: center;
+    align-items: center;
   }
 }
