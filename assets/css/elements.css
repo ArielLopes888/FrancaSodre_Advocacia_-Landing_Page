@@ -1,4 +1,5 @@
 @import '../css/reset.css';
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -17,25 +18,34 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ivy Mode', sans-serif;
+
 }
 
 h1 {
-  font-size: 6rem;
-  text-transform: uppercase;
-}
-
-h1 {
-  font-size: 6rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1.2;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
 }
+.h2-contact {
+  font-size: 3.2rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px;
+}
+
+
+
 h4 {
   font-size: 2.5rem;
   margin-bottom: 5rem;
@@ -48,7 +58,8 @@ a {
 }
 
 p {
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
+  font-size: 1.7rem;
 }
 
 .whatsapp-article {
@@ -76,6 +87,47 @@ p {
   margin-left: 20px;
 }
 
+.personalized-card {
+  width: 100%;
+  max-width: 32rem;
+  max-height: 52rem;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.671);
+  background-color: #251c1f85;
+  padding: 1rem;
+  color: var(--white-color);
+  text-align: center;
+  border: 4px solid #ffffffab;
+  border-radius: 10px;
+}
+
+.personalized-card2 {
+  width: 100%;
+  max-width: 32rem;
+  max-height: 72rem;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #251c1f56;
+  padding: 1rem;
+  color: var(--white-color);
+  text-align: center;
+  border: 3px solid var(--gold-color);
+  border-radius: 10px;
+}
+
+.personalized-card2 .hidden-paragraph {
+  display: none;
+}
+
+.personalized-card2:hover .hidden-paragraph {
+  display: block;
+}
+
+.personalized-card2:hover .p-detail {
+  display: none;
+}
+
 .p-contact {
   font-size: 2em;
   font-weight: 700;
@@ -98,45 +150,61 @@ p {
 
 }
 
-.p-contact a{
-  text-decoration: none;
-  color: inherit;
+.footer {
+  text-align: center;
+  background: var(--blue-color);
 }
 
-.p-email a{
-  text-decoration: none;
-  color: inherit;
+.footer a {
+  color: var(--white-color);
+  font-size: 1.4rem;
 }
+
+.footer p {
+  margin: 0;
+  padding: 5rem;
+}
+
+.heart {
+  color: var(--secondary-color);
+}
+
 iframe {
   width: 100%;
   height: 500px;
 }
 
-
 @media (max-width: 800px) {
 
 
   h1 {
-    font-size: 4rem;
-  }
-
-  h2 {
-    font-size: 3.6rem;
-  }
-
-  h3 {
-    font-size: 3.2rem;
-  }
-
-  h4 {
     font-size: 3rem;
   }
 
+  h2 {
+    font-size: 2.3rem;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
   h5 {
-    font-size: 2.9rem;
+    font-size: 1.7rem;
   }
 
   h6 {
-    font-size: 2.7rem;
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 300px) {
+
+  h2 {
+    font-size: 2.8rem;
   }
 }

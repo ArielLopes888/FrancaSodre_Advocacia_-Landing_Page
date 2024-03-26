@@ -1,8 +1,11 @@
 @import '../css/reset.css';
 :root {
   --primary-color: #0A1128;
+  --gray-color: #dbd9d9;
   --white-color: #FFFFFF;
-  --light-gray-color: #EEEEEE;
+  --light-gray-color: #a5a4a4;
   --secondary-color: crimson;
   --gap: 3rem;
+  --gold-color: #bc9c6c;
+  --blue-color: #000066;
 }

@@ -6,34 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Franca & Sodré</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
-    rel="stylesheet">
   <link rel="stylesheet" href="assets/css/variables.css">
   <link rel="stylesheet" href="assets/css/elements.css">
   <link rel="stylesheet" href="assets/css/classes.css">
   <link rel="stylesheet" href="assets/css/menu.css">
   <link rel="stylesheet" href="assets/css/styles.css">
-
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ivy+Mode&display=swap">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-701571983"></script>
+  <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-701571983'); </script>
 </head>
 
 <body>
 
   <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
   <label class="close-menu-label" for="close-menu" title="close menu"></label>
-  <aside class="menu white-bg">
+  <aside class="menu gold-bg">
     <div class="main-content menu-content">
       <h1 onclick="getElementById('close-menu').checked = false;">
-        <a href="#franca-sodre">Franca & Sodré</a>
+        <!-- <a href="#franca-sodre">Franca & Sodré</a> -->
       </h1>
 
       <nav>
         <ul onclick="getElementById('close-menu').checked = false;">
-          <!-- <li><a href="#intro">Introdução</a></li> -->
           <li><a href="#about">Sobre o Escritório</a></li>
           <li><a href="#franca-sodre">Quem Somos</a></li>
-          <li><a href="articles.html">Artigos</a></li>
+          <li><a href="researches.html">Artigos</a></li>
           <li><a href="#contact">Contato</a></li>
 
         </ul>
@@ -45,28 +50,29 @@
 
   <section id="home" class="intro book-bg section">
     <div class="logo-container">
-      <img class="logo-img" src="assets/img/logo png.png" alt="Logo">
+      <img class="logo-img" src="assets/img/logo.png" alt="Logo">
     </div>
-    <div class="main-content intro-content">
-      <div class="intro-text-content">
-        <h2>Fale diretamente com especialistas em Direito Civil</h2>
+    <div class="main-content">
+      <div>
+        <br>
+        <br>
+        <h1>Profissionais de excelência que podem atuar por você com eficácia, respeito e
+          transparência.</h1>
+        <br>
+        <article class="whatsapp-article">
+          <a href="https://api.whatsapp.com/send?phone=5579999163556&text=Ol%C3%A1!%20Vim%20do%20google%20e%20me%20chamo..."
+            target="_blank" class="whatsapp-button">
+            Clique aqui!
+            <img src="assets/img/whats.svg" alt="Logo Whats" class="whatsapp-icon">
+          </a>
+        </article>
+      </div>
+    </div>
 
-      </div>
-      <div class="intro-img">
-        <img src="assets/img/francasodre.jpg" class="bordered-image">
-      </div>
-    </div>
-    <article class="whatsapp-article">
-      <a href="https://wa.me/5579988381834?text=Ol%C3%A1%2C+gostaria+de+um+or%C3%A7amento+para+..." target="_blank"
-        class="whatsapp-button">
-        Clique aqui!
-        <img src="assets/img/whats.svg" alt="Logo Whats" class="whatsapp-icon">
-      </a>
-    </article>
   </section>
 
-  <section id="about" class="white-bg">
-    <div class="main-content top3-content">
+  <section id="about" class="gold-bg">
+    <div class="main-content">
       <h2>SOBRE O ESCRITÓRIO</h2>
       <p>
         O Franca & Sodré Advocacia é um escritório encabeçado por advogadas de excelência. Sua sede está localizada na
@@ -75,7 +81,7 @@
       <p>
         Atuantes na área do Direito Civil, em várias das suas ramificações, com destaque para o direito do consumidor,
         direito imobiliário, direito das famílias e direito à saúde, dentre outras.
-        <a href="#AreasOfExpertise">CLIQUE AQUI E VEJA AS ÁREAS DE ATUAÇÃO</a>
+        <a class="link" href="#AreasOfExpertise">CLIQUE AQUI E VEJA AS ÁREAS DE ATUAÇÃO</a>
       </p>
       <br>
       <p>Com advogadas dotadas de amplo conhecimento sobre o direito e o processo civil, somados à experiência na área e
@@ -92,113 +98,327 @@
     <br>
     <br>
     <div class="logo-container">
-      <img class="logo-img" src="assets/img/logo png.png" alt="Logo">
+      <img class="logo-img" src="assets/img/logo.png" alt="Logo">
     </div>
 
     <div class="main-content intro-content">
       <div class="person-img">
-        <img class="bordered-image" src="assets/img/mariana 2.jpg">
+        <img class="bordered-image" src="assets/img/mariana.jpg">
       </div>
       <article>
-        <h4>MARIANA FRANCA – ADVOGADA - OAB/SE 12.930</h4>
-        <p>Advogada com atuação voltada ao direito civil e responsável pelas pautas do escritório relativas a direito do
-          consumidor, ações indenizatórias, mandados de segurança, ações de família, envolvendo bens imóveis e demandas
-          relativas aos direitos LGBTQIA+.</p>
+        <h4>Dra. MARIANA FRANCA</h4>
+        <p>• Advogada com atuação voltada ao direito civil, de família, relacionado a bens imóveis e demandas relativas
+          aos direitos LGBTQIA+;</p>
         <br>
-        <p>Conhecedora do Direito e Processo Civil, possui ampla experiência nas demandas de consumo, já que iniciou sua
-          carreira no meio jurídico ainda antes de formada, atuando em todos os setores do Procon Estadual de Sergipe,
-          possuindo, atualmente, vasta experiência em ações indenizatórias por danos materiais e morais.</p>
+        <p>• Ampla experiência nas demandas de consumo, tendo atuado como estagiária em todos os setores do Procon
+          Estadual de Sergipe;</p>
         <br>
-        <p>Membra da Comissão de Diversidade Sexual e de Gênero da OAB/SE, é incisiva na defesa dos direitos de grupos
-          vulneráveis de maneira geral.</p>
-
-      </article>
-      <article class="whatsapp-article">
-        <a href="https://api.whatsapp.com/send?phone=5555799916355&text=Ol%C3%A1!%20Vim%20do%20google%20e%20me%20chamo..."
-          target="_blank" class="whatsapp-button">
-          Clique aqui!
-          <img src="assets/img/whats.svg" alt="Logo Whats" class="whatsapp-icon">
-        </a>
+        <p>• Membra da Comissão de Diversidade Sexual e de Gênero da OAB/SE</p>
+        <br>
+        <article class="whatsapp-article">
+          <a href="https://api.whatsapp.com/send?phone=5579999163556&text=Ol%C3%A1!%20Vim%20do%20google%20e%20me%20chamo..."
+            target="_blank" class="whatsapp-button">
+            Clique aqui!
+            <img src="assets/img/whats.svg" alt="Logo Whats" class="whatsapp-icon">
+          </a>
+        </article>
       </article>
     </div>
 
     <div class="main-content intro-content">
 
       <div class="person-img">
-        <img src="assets/img/emille 2.jpg" class="bordered-image">
+        <img src="assets/img/emille.jpg" class="bordered-image">
       </div>
       <div class="intro-text-content">
-        <h4>ÉMILLY SODRÉ – ADVOGADA – OAB/SE 11.780</h4>
-        <p>Advogada com atuação voltada ao direito civil e responsável pelas pautas do escritório relativas ao direito à
-          saúde, em especial ações contra planos de saúde, além das ações de família, ações indenizatórias derivadas das
-          relações de consumo, cumprimento de sentença e execuções, além de demandas complexas, que envolvem mais de uma
-          área do direito.</p>
-        <p>Possui ampla experiência acadêmica, tendo participado da iniciação científica desde o 5º período do curso de
-          Direito e publicado, desde então, inúmeros trabalhos científicos, além de ter participado de vários eventos.
-          Atualmente, encontra-se em fase conclusiva do mestrado em Direitos Humanos, pela Universidade Tiradentes, em
-          Aracaju/SE. Essa experiência lhe concede habilidades discursivas e argumentativas que formam o seu diferencial
-          enquanto advogada.</p>
+        <h4>Dra. ÉMILLY SODRÉ</h4>
+        <p>• Advogada com atuação voltada ao direito civil, direito à saúde e demandas complexas;</p>
+        <br>
+        <p>• Ampla experiência acadêmica, com inúmeros trabalhos científicos publicados e participação em eventos;</p>
         <br>
         <p>
-          Já na prática forense, realizou estágio em escritório de advocacia, adquirindo experiência estratégica na
-          condução dos processos. Após formada, passou a atuar por conta própria nas áreas de direito civil e direito
-          penal, tendo afunilado seu interesse profissional na área de direito à saúde, com ênfase nos direitos dos
-          autistas, além das demandas que envolvem direito das famílias.
-        </p>
+          • Mestranda em Direitos Humanos, pela Universidade Tiradentes, em Aracaju/SE;</p>
         <br>
         <p>
-          Membra da Comissão de Defesa dos Direitos da Mulher da OAB/SE desde 2022, Dra. Émilly participa ativamente nos
-          Grupos de Trabalho de Pesquisa, Mulheres Encarceradas e Informativos, todos em função da defesa dos direitos
-          das mulheres, sendo sensível à causa.
+          • Membra da Comissão de Defesa dos Direitos da Mulher e da Comissão de Direitos Humanos da OAB/SE desde 2022,
+          sendo militante nestas áreas.
         </p>
+        <br>
+        <article class="whatsapp-article">
+          <a href="https://api.whatsapp.com/send?phone=5579999163556&text=Ol%C3%A1!%20Vim%20do%20google%20e%20me%20chamo..."
+            target="_blank" class="whatsapp-button">
+            Clique aqui!
+            <img src="assets/img/whats.svg" alt="Logo Whats" class="whatsapp-icon">
+          </a>
+        </article>
       </div>
 
-      <article class="whatsapp-article">
-        <a href="https://api.whatsapp.com/send?phone=5555799916355&text=Ol%C3%A1!%20Vim%20do%20google%20e%20me%20chamo..."
-          target="_blank" class="whatsapp-button">
-          Clique aqui!
-          <img src="assets/img/whats.svg" alt="Logo Whats" class="whatsapp-icon">
-        </a>
-      </article>
+
 
     </div>
   </section>
 
-  <section id="AreasOfExpertise" class="gold-bg section">
-    <div class="main-content top3-content">
+  <section id="diferential" class="gold-bg">
+    <div class="main-content">
       <h2>Nosso Diferencial</h2>
+      <div class="grid">
+        <div class="personalized-card ">
+          <p><strong>Atendimento Personalizado</strong></p>
+          <br>
+          <p>
+            Com atendimentos Presenciais e On-line, os clientes possuem contato direto com Dra. Mariana Franca e Dra.
+            Emilly Sodré, de forma humanizada e adaptada às suas necessidades.</p>
+        </div>
+        <div class="personalized-card ">
+          <p><strong>Defesa aguerrida</strong></p>
+          <br>
+          <p>Ter nossas advogadas como suas defensoras é a certeza de que o seu direito será
+            defendido com resistência e intensidade até o último ato, visto que temos a convicção de que cada cliente
+            tem suas dores e necessidades. A realização do cliente é a nossa realização.</p>
+        </div>
+        <div class="personalized-card ">
+          <P><strong>Transparência e Ética na solução dos conflitos</strong></P>
+          <br>
+          <p>Buscamos esclarecer o seu direito de maneira simples e
+            intuitiva, de tal forma que a complexidade do direito se torne compreensível. Você tem o direito de entender
+            o que se passa com o seu processo. Além disto, buscamos manter os clientes sempre bem informados sobre
+            valores e serviços, bem como o andamento e os próximos passos do seu processo.
 
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="AreasOfExpertise" class="book-bg ">
+    <div class="main-content">
+      <h2 class="h2-gold">ÁREAS DE ATUAÇÃO</h2>
+      <div class="grid">
+        <div class="personalized-card2 ">
+          <p><strong>FAMÍLIAS E SUCESSÕES</strong></p>
+          <br>
+          <p class="p-detail"> Mais detalhes aqui!</p>
+          <br>
+          <p class="hidden-paragraph">- Registro Civil (alteração, restauração e retificação)<br>
+            - Divórcio consensual ou litigioso<br>
+            - Reconhecimento e Dissolução de União Estável, inclusive post mortem<br>
+            - Adoção<br>
+            - Reconhecimento de Paternidade/Maternidade, via DNA ou socioafetiva<br>
+            - Guarda de Filhos e Regulamentação de Visitas<br>
+            - Pensão Alimentícia<br>
+            - Partilha de Bens<br>
+            - Alvará judicial para acesso a contas e bens de pessoa falecida<br>
+            - Inventário<br>
+            - Testamentos<br>
+            - Interdição
+          </p>
+
+        </div>
+        <div class="personalized-card2 ">
+          <p><strong>DIREITO DO CONSUMIDOR</strong></p>
+          <br>
+          <p class="p-detail"> Mais detalhes aqui!</p>
+          <br>
+          <p class="hidden-paragraph">- Negativações indevidas<br>
+            - Indenizatórias<br>
+            - Danos morais<br>
+            - Danos materiais<br>
+            - Contratos abusivos<br>
+            - Garantia e Seguros<br>
+            - Seguro DPVAT<br>
+            - Rescisão de contrato
+          </p>
+
+        </div>
+        <div class="personalized-card2 ">
+          <p><strong>DIREITO BANCÁRIO</strong></p>
+          <br>
+          <p class="p-detail"> Mais detalhes aqui!</p>
+          <br>
+          <p class="hidden-paragraph">- Revisão de Juros<br>
+            - Contratos Abusivos<br>
+            - Empréstimos Abusivos
+          </p>
+
+        </div>
+        <div class="personalized-card2 ">
+          <p><strong>DIREITO À SAÚDE</strong></p>
+          <br>
+          <p class="p-detail"> Mais detalhes aqui!</p>
+          <br>
+          <p class="hidden-paragraph">- Médicos, Planos de Saúde e SUS<br>
+            - Dano Moral por negligência ou omissão<br>
+            - Negativa de tratamentos, que constam ou não no Rol da ANS<br>
+            - Fornecimento de medicamentos de alto custo, incluindo cannabis medicinal<br>
+            - Má prestação do serviço<br>
+            - Revisão de valores abusivos de plano de saúde, em parcelas, franquias ou coparticipação<br>
+            - Direitos dos Autistas<br>
+            - Violação dos direitos do paciente
+          </p>
+
+        </div>
+        <div class="personalized-card2 ">
+          <p><strong>DIREITO IMOBILIÁRIO</strong></p>
+          <br>
+          <p class="p-detail"> Mais detalhes aqui!</p>
+          <br>
+          <p class="hidden-paragraph">- Registro de imóvel<br>
+            - Usucapião<br>
+            - Ação de Despejo<br>
+            - Ações de proteção da posse e da propriedade<br>
+            - Ação de Reintegração da Posse<br>
+            - Interdito Proibitório<br>
+            - Ação de Manutenção da Posse<br>
+            - Ação Reivindicatória<br>
+            - Atraso na entrega do imóvel<br>
+            - Distratos imobiliários<br>
+            - Direito condominial
+          </p>
+
+        </div>
+        <div class="personalized-card2 ">
+          <p><strong>DIREITOS LGBTQIA+</strong></p>
+          <br>
+          <p class="p-detail"> Mais detalhes aqui!</p>
+          <br>
+          <p class="hidden-paragraph">- Indenizatórias por crime de LGBTFOBIA<br>
+            - Proteção de dados sensíveis<br>
+            - Adoção<br>
+            - Registro de parentalidade em procedimentos de inseminação artificial<br>
+            - Ações de dupla paternidade ou maternidade<br>
+            - Retificação de nome e gênero de pessoas Trans<br>
+            - Acesso à saúde
+          </p>
+
+        </div>
+        <div class="personalized-card2 ">
+          <p><strong>DIREITO DOS AUTISTAS</strong></p>
+          <br>
+          <p class="p-detail"> Mais detalhes aqui!</p>
+          <br>
+          <p class="hidden-paragraph"><strong>Direito à saúde:</strong><br>
+            - Negativa de tratamentos alternativos<br>
+            - Negativa de fornecimento de medicamentos de alto custo – cannabis medicinal<br>
+            - Limitação de sessões nos tratamentos<br>
+            - Negativa de tratamento no método de escolha do profissional
+            - Negativa de reembolso dos procedimentos
+          </p>
+          <br>
+          <p class="hidden-paragraph"><strong>Direito à educação:</strong><br>
+            - Negativa da escola em disponibilizar professor auxiliar para o aluno com TEA ou cobrança de valores para
+            arcar com esse profissional<br>
+            - Negativa de matrícula em escola pública ou particular
+          </p>
+
+
+        </div>
+        <div class="personalized-card2 ">
+          <p><strong>CONTRATOS E RELAÇÕES CONTRATUAIS</strong></p>
+          <br>
+          <p class="p-detail"> Mais detalhes aqui!</p>
+          <br>
+          <p class="hidden-paragraph">- Elaboração de contratos profissionais<br>
+            - Execução de Título Executivo<br>
+            - Ação Monitória<br>
+            - Descumprimento contratual<br>
+            - Rescisão Contratual e Distrato<br>
+            - Notificação Extrajudicial
+          </p>
+
+        </div>
+        <div class="personalized-card2 ">
+          <P><strong>OUTROS SERVIÇOS</strong></P>
+          <br>
+          <p class="p-detail"> Mais detalhes aqui!</p>
+          <br>
+          <p class="hidden-paragraph">- Consultoria jurídica<br>
+            - Relatórios e Pareceres jurídicos (análise processual)<br>
+            - Advocacia Extrajudicial<br>
+            - Acompanhamento de Processos<br>
+            - Acompanhamento em audiência<br>
+            - Acompanhamento em execução penal (pedido de saída temporária, progressão de regime, remição, etc)<br>
+            - Dentre outros
+          </p>
+
+        </div>
+      </div>
     </div>
   </section>
-  <section id="AreasOfExpertise" class="book-bg section">
-    <div class="main-content top3-content">
-      <h2>ÁREAS DE ATUAÇÃO</h2>
-
-    </div>
-  </section>
-
-  <section id="contact" class="white-bg section">
-    <div class="main-content top3-content">
-      <h3>Contato</h3>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15670.489441278765!2d-37.0492687!3d-10.9162779!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab39b4e7274d5%3A0x1c6932ba8ee329de!2sFranca%20%26%20Sodr%C3%A9%20Advocacia%20e%20Consultoria%20Jur%C3%ADdica!5e0!3m2!1spt-BR!2sbr!4v1708014826066!5m2!1spt-BR!2sbr"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <section id="researche" class="gold-bg">
+    <div class="main-content">
+      <h2>LEIA NOSSOS MELHORES ARTIGOS E FIQUE POR DENTRO DOS SEUS DIREITOS:</h2>
       <br>
+      <div class="grid">
+        <div class="personalized-card ">
+          <div>
+            <img src="assets/img/v.jpg" class="bordered-image-researche">
+          </div>
+          <br>
+          <p><strong>Título do Artigo</strong></p>
+          <p>Este é um parágrafo exemplo, para ler mais <a class="link" href="researches.html">clique aqui!</a></p>
+        </div>
+        <div class="personalized-card ">
+          <div>
+            <img src="assets/img/researches3.jpg" class="bordered-image-researche">
+          </div>
+          <br>
+          <p><strong>Título do Artigo</strong></p>
+          <p>Este é um parágrafo exemplo, para ler mais <a class="link" href="researches.html">clique aqui!</a></p>
+        </div>
+        <div class="personalized-card ">
+          <div>
+            <img src="assets/img/researches2.jpg" class="bordered-image-researche">
+          </div>
+          <br>
+          <p><strong>Título do Artigo</strong></p>
+          <p>Este é um parágrafo exemplo, para ler mais <a class="link" href="researches.htmls">clique aqui!</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="contact" class="blue-bg">
+    <div class="contact-title-content">
+      <h2 class="h2-contact">TIRE SUA DÚVIDA AGORA MESMO</h2>
       <article class="whatsapp-article">
-        <a href="https://api.whatsapp.com/send?phone=5555799916355&text=Ol%C3%A1!%20Vim%20do%20google%20e%20me%20chamo..."
+        <a href="https://api.whatsapp.com/send?phone=5579999163556&text=Ol%C3%A1!%20Vim%20do%20google%20e%20me%20chamo..."
           target="_blank" class="whatsapp-button">
           Clique aqui!
           <img src="assets/img/whats.svg" alt="Logo Whats" class="whatsapp-icon">
         </a>
       </article>
-
+      <br>
+      <br>
+      <br>
+      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+      <div class="elfsight-app-0a45f684-1b9c-4516-acb8-8c25f055c9eb" data-elfsight-app-lazy></div>
+      <br>
+      <br>
+      <div class="intro-content">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15670.489441278765!2d-37.0492687!3d-10.9162779!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab39b4e7274d5%3A0x1c6932ba8ee329de!2sFranca%20%26%20Sodr%C3%A9%20Advocacia%20e%20Consultoria%20Jur%C3%ADdica!5e0!3m2!1spt-BR!2sbr!4v1708014826066!5m2!1spt-BR!2sbr"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>Franca & Sodré Advocacia e Consultoria:
+          <br>
+          <br>
+          <p>Rua Pacatuba, 254, Centro, (Sala 1106), Aracaju/SE, 49.010-150
+          </p>
+          <br>
+          <p> Telefone:
+            (79) 9 9916-3556, (79) 9 9122-0264
+          </p>
+          <br>
+          <p>E-mail: emillysamita.adv@gmail.com</p>
+        </h3>
+      </div>
+      <br>
     </div>
   </section>
 
-  <footer id="footer" class="footer white-bg">
-    <p><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/ariellopes-developer/">Feito com <span
+  <footer id="footer" class="footer">
+    <p><a rel="nofollow" target="_blank" href="https://ariellisboa.netlify.app/sites">Feito com <span
           class="heart">❤</span> por Ariel Lisboa</a></p>
   </footer>
   <a class="back-to-top" href="#">➤</a>
